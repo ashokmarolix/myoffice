@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.qa.empirem.extentreport.ExtentReportTest"></listener>
+	</listeners>
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.empirem.qa.testcases.LoginPageTest" />
+			<class name="com.empirem.qa.testcases.HomePageTest" />
+			<class name="com.empirem.qa.testcases.UserTypesPageTest" />
+			<class name="com.empirem.qa.testcases.CategoriesPageTest" />
+			<class name="com.empirem.qa.testcases.LocationPageTest" />
+			<class name="com.empirem.qa.testcases.ConditionPageTest" />
+			
+
+			
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

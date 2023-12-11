@@ -1,0 +1,33 @@
+package corejava;
+
+public class C_overloading {
+	String name;
+	float parcentage;
+	public C_overloading() {
+		System.out.println("super star mahesh babu");
+		
+		
+	}
+public C_overloading(String sname, float sparcentage ) {
+	name =sname;
+	parcentage = sparcentage;
+		
+	}
+public C_overloading(float f) {
+	parcentage =f;
+	
+}
+
+	public static void main(String[] args) {
+		 C_overloading c1 = new  C_overloading ();
+		 C_overloading c2 = new  C_overloading ("ashok alias life is beautiful");
+		
+		 
+		 
+		
+		
+		
+
+	}
+
+}

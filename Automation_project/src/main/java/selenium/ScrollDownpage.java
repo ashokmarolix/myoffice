@@ -1,0 +1,38 @@
+package selenium;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+
+public class ScrollDownpage {
+
+	public static void main(String[] args) throws Throwable {
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+
+		driver.get("https://www.redbus.in/");
+		Thread.sleep(5000);
+		WebElement aprtc = driver.findElement(By.xpath("//img[@alt='APSRTC_logo']"));
+		Thread.sleep(5000);
+		Point loc = aprtc.getLocation();
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		Thread.sleep(5000);
+		js.executeScript("window.scrollby" + loc);
+
+//		
+//		
+//		Thread.sleep(5000);
+//		JavascriptExecutor js = (JavascriptExecutor) driver;
+//		Thread.sleep(4000);
+//
+//		// js.executeScript("window.scrollby(450,2000)");
+//
+//		// js.executeScript("window.scrollto(0, document.boby.scrollHeight");
+
+	}
+
+}

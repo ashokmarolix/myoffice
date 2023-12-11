@@ -1,0 +1,17 @@
+package pracitice;
+
+class surya {
+	public void m1() {
+	System.out.println("m1 method");
+}
+}
+class surya ext
+
+public class Singleinheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
