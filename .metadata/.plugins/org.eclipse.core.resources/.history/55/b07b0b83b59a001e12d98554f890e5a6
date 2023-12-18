@@ -1,0 +1,20 @@
+package module_3;
+
+abstract class Car {
+	
+	abstract void run();
+	
+	class Mahindra extends Car{
+		public void run() {
+			System.out.println("Mahindra car is running");
+		}
+	}
+	
+
+	public static void main(String[] args) {
+		Mahindra mn = new Mahindra();
+		mn.run();
+
+	}
+
+}

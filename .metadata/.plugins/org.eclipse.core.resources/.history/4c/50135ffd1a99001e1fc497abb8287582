@@ -1,0 +1,58 @@
+package module_3;
+
+public class Encapsulation1 {
+	
+	private String sname;
+	private int sage;
+	
+	
+	
+	
+	
+
+	public String getSname() {
+		return sname;
+	}
+
+
+
+
+
+
+	public void setSname(String sname) {
+		this.sname = sname;
+		System.out.println(sname);
+	}
+
+
+
+
+
+
+	public int getSage() {
+		return sage;
+	}
+
+
+
+
+
+
+	public void setSage(int sage) {
+		this.sage = sage;
+		System.out.println(sage);
+	}
+
+
+
+
+
+
+	public static void main(String[] args) {
+		
+     Encapsulation1 ec5 = new Encapsulation1();
+     ec5.getSname("ashok");
+     ec5.getSage(27);
+	}
+
+}

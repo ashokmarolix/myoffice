@@ -1,0 +1,21 @@
+package pracitice;
+
+public class arjun {
+	
+	public void m1(int i) {
+		System.out.println("1St method");
+	}
+	
+	public void m1(String s) {
+		System.out.println("2St method"); 
+	}
+	class ram extends arjun{
+		public void m1()
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

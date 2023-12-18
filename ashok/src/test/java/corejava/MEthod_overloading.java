@@ -17,8 +17,7 @@ public class MEthod_overloading {
 
 	public static void main(String[] args) {
 		MEthod_overloading al = new MEthod_overloading();
-
-		al.m1(1, 3);
+        al.m1(1, 3);
 		al.m2("ashok", "kowsi");
 		al.m3(91483433);
 

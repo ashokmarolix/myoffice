@@ -29,11 +29,11 @@ public class Operators {
 //		System.out.println(a != b);
 
 //		logical operators
-		boolean a = false;
-		boolean b = true;
+//		boolean a = false;
+//		boolean b = true;
 //		System.out.println(a&&b);
 //		System.out.println(a || b);
-		System.out.println(!a);
+//		System.out.println(!a);
 
 	}
 

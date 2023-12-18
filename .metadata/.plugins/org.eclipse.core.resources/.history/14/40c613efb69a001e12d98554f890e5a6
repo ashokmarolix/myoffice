@@ -1,0 +1,21 @@
+package module_3;
+
+abstract class car{
+	abstract void run();
+	
+}
+class toyota implements car{
+ public void run() {
+	 System.out.println("Mahindra car is runnig");
+ }
+}
+
+public class Abstraction {
+
+	public static void main(String[] args) {
+		toyota	 t = new toyota();
+		t.run();
+
+	}
+
+}

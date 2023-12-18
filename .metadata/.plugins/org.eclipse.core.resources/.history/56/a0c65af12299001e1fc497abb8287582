@@ -1,0 +1,19 @@
+package pracitice;
+
+public class Megastar {
+	
+	public void m1(int i) {
+		System.out.println("1St method");
+	}
+	
+	public void m2(String s) {
+		System.out.println("2St method"); 
+	}
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

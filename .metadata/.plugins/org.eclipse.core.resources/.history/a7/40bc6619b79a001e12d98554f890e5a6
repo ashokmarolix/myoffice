@@ -1,0 +1,21 @@
+package module_3;
+
+abstract class bike{
+	abstract void run();
+	
+}
+class toyota extends bike{
+ public void run() {
+	 System.out.println(" is runnig");
+ }
+}
+
+public class Abstraction {
+
+	public static void main(String[] args) {
+		toyota	 t = new toyota();
+		t.run();
+
+	}
+
+}

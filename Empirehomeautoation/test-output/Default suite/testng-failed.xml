@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.empire.qa.testcases.AddinventorypageTest">
+      <class name="com.empire.qa.testcases.HomePageTest">
         <methods>
+          <include name="VerifyhomepageTest"/>
           <include name="setup"/>
           <include name="teardown"/>
-          <include name="VerifyAddInventoryTest"/>
         </methods>
-      </class> <!-- com.empire.qa.testcases.AddinventorypageTest -->
+      </class> <!-- com.empire.qa.testcases.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

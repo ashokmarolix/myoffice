@@ -1,133 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+<testng-results ignored="1" total="2" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-06T10:05:05 IST" name="Suite" finished-at="2023-11-06T10:05:58 IST" duration-ms="52994">
+  <suite started-at="2023-12-16T02:54:53 IST" name="Default suite" finished-at="2023-12-16T02:54:53 IST" duration-ms="82">
     <groups>
     </groups>
-    <test started-at="2023-11-06T10:05:05 IST" name="Test" finished-at="2023-11-06T10:05:58 IST" duration-ms="52994">
+    <test started-at="2023-12-16T02:54:53 IST" name="Default test" finished-at="2023-12-16T02:54:53 IST" duration-ms="82">
       <class name="com.empire.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.HomePageTest@3c435123]" started-at="2023-11-06T10:05:32 IST" name="setup" finished-at="2023-11-06T10:05:39 IST" duration-ms="6886" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyEhomepageTitleTest()[pri:1, instance:com.empire.qa.testcases.HomePageTest@3c435123]" started-at="2023-11-06T10:05:39 IST" name="VerifyEhomepageTitleTest" finished-at="2023-11-06T10:05:39 IST" duration-ms="12" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyEhomepageTitleTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.HomePageTest@3c435123]" started-at="2023-11-06T10:05:39 IST" name="teardown" finished-at="2023-11-06T10:05:39 IST" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.HomePageTest@3c435123]" started-at="2023-11-06T10:05:39 IST" name="setup" finished-at="2023-11-06T10:05:51 IST" duration-ms="11816" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="VerifyhomepageTest()[pri:2, instance:com.empire.qa.testcases.HomePageTest@3c435123]" started-at="2023-11-06T10:05:51 IST" name="VerifyhomepageTest" finished-at="2023-11-06T10:05:57 IST" duration-ms="6698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyhomepageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.HomePageTest@3c435123]" started-at="2023-11-06T10:05:57 IST" name="teardown" finished-at="2023-11-06T10:05:58 IST" duration-ms="261" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.empire.qa.testcases.HomePageTest -->
-      <class name="com.empire.qa.testcases.LoginpageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:20 IST" name="setup" finished-at="2023-11-06T10:05:23 IST" duration-ms="3227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyEhomeTitletest()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:23 IST" name="verifyEhomeTitletest" finished-at="2023-11-06T10:05:23 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEhomeTitletest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:23 IST" name="teardown" finished-at="2023-11-06T10:05:23 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:23 IST" name="setup" finished-at="2023-11-06T10:05:26 IST" duration-ms="3118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyEhomeimageTest()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:26 IST" name="verifyEhomeimageTest" finished-at="2023-11-06T10:05:26 IST" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEhomeimageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:26 IST" name="teardown" finished-at="2023-11-06T10:05:26 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:26 IST" name="setup" finished-at="2023-11-06T10:05:30 IST" duration-ms="3590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLoginpageTest()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:30 IST" name="verifyLoginpageTest" finished-at="2023-11-06T10:05:32 IST" duration-ms="1908" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginpageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.LoginpageTest@150ab4ed]" started-at="2023-11-06T10:05:32 IST" name="teardown" finished-at="2023-11-06T10:05:32 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.empire.qa.testcases.LoginpageTest -->
-      <class name="com.empire.qa.testcases.AddinventorypageTest">
-        <test-method signature="VerifyAddInventoryTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.empire.qa.testcases.AddinventorypageTest@618c5d94]" started-at="2023-11-06T10:05:05 IST" name="VerifyAddInventoryTest" data-provider="Exceldata" finished-at="2023-11-06T10:05:06 IST" duration-ms="958" status="FAIL">
-          <exception class="org.testng.internal.reflect.MethodMatcherException">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.HomePageTest@27f981c6]" started-at="2023-12-16T02:54:53 IST" name="setup" finished-at="2023-12-16T02:54:53 IST" duration-ms="5" status="FAIL">
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[
-[public void com.empire.qa.testcases.AddinventorypageTest.VerifyAddInventoryTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: VerifyAddInventoryTest([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7, java.lang.String arg8, java.lang.String arg9, java.lang.String arg10, java.lang.String arg11, java.lang.String arg12, java.lang.String arg13, java.lang.String arg14, java.lang.String arg15, java.lang.String arg16, java.lang.String arg17])
-Arguments: [(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001]]]>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "BrowserName" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.testng.internal.reflect.MethodMatcherException: 
-[public void com.empire.qa.testcases.AddinventorypageTest.VerifyAddInventoryTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Throwable] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
-Data provider mismatch
-Method: VerifyAddInventoryTest([java.lang.String arg0, java.lang.String arg1, java.lang.String arg2, java.lang.String arg3, java.lang.String arg4, java.lang.String arg5, java.lang.String arg6, java.lang.String arg7, java.lang.String arg8, java.lang.String arg9, java.lang.String arg10, java.lang.String arg11, java.lang.String arg12, java.lang.String arg13, java.lang.String arg14, java.lang.String arg15, java.lang.String arg16, java.lang.String arg17])
-Arguments: [(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001,(java.lang.String) EMP001]
-at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:46)
-at org.testng.internal.Parameters.injectParameters(Parameters.java:909)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:37)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "BrowserName" is null
+at com.empire.qa.base.Base_test.initialization(Base_test.java:39)
+at com.empire.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
 at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.testng.internal.reflect.MethodMatcherException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VerifyAddInventoryTest -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.empire.qa.testcases.AddinventorypageTest@618c5d94]" started-at="2023-11-06T10:05:06 IST" name="setup" finished-at="2023-11-06T10:05:19 IST" duration-ms="13793" status="PASS">
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="VerifyaddinventoryTitle()[pri:0, instance:com.empire.qa.testcases.AddinventorypageTest@618c5d94]" started-at="2023-11-06T10:05:19 IST" name="VerifyaddinventoryTitle" finished-at="2023-11-06T10:05:19 IST" duration-ms="13" status="PASS">
+        <test-method signature="VerifyhomepageTest()[pri:2, instance:com.empire.qa.testcases.HomePageTest@27f981c6]" started-at="2023-12-16T02:54:53 IST" name="VerifyhomepageTest" finished-at="2023-12-16T02:54:53 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "String.equals(Object)" because "BrowserName" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.equals(Object)" because "BrowserName" is null
+at com.empire.qa.base.Base_test.initialization(Base_test.java:39)
+at com.empire.qa.testcases.HomePageTest.setup(HomePageTest.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- VerifyaddinventoryTitle -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.AddinventorypageTest@618c5d94]" started-at="2023-11-06T10:05:19 IST" name="teardown" finished-at="2023-11-06T10:05:20 IST" duration-ms="269" status="PASS">
+        </test-method> <!-- VerifyhomepageTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.empire.qa.testcases.HomePageTest@27f981c6]" started-at="2023-12-16T02:54:53 IST" name="teardown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1702675493839" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.empire.qa.testcases.AddinventorypageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.empire.qa.testcases.HomePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

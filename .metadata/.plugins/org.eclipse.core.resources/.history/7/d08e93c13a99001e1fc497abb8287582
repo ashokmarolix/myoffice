@@ -1,0 +1,20 @@
+package pracitice;
+
+public class Star {
+	
+	String name;
+	public Star() {
+		name ="shiva";
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+     Star s = new Star();
+     System.out.println(s.name);
+ 	  Star s1 = new Star();
+     System.out.println(s1.name);
+	}
+
+}
